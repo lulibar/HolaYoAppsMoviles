@@ -7,30 +7,31 @@
     android:padding="24dp">
 
     <TextView
-        android:id="@+id/tvSaludo"
+        android:id="@+id/tvBienvenida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tvDato"
+        android:id="@+id/tvContador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:layout_marginTop="8dp" />
+        android:textSize="48sp"
+        android:layout_marginTop="24dp" />
 
     <Button
-        android:id="@+id/btnSaludar"
+        android:id="@+id/btnSumar"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sumar" />
+
+    <EditText
+        android:id="@+id/etNotas"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/btn_saludar" />
+        android:hint="@string/hint_notas"
+        android:inputType="textMultiLine" />
 
-    <Button
-        android:id="@+id/btnIrSegunda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/btn_ir_segunda" />
 </LinearLayout>
